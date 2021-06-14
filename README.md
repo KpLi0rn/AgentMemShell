@@ -5,4 +5,5 @@
 
 maven 打包命令：`mvn assembly:assembly`
 
-使用教程结合文章链接：
+使用教程结合文章链接：https://www.yuque.com/tianxiadamutou
+
