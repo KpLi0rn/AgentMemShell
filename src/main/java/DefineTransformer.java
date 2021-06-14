@@ -35,7 +35,6 @@ public class DefineTransformer implements ClassFileTransformer {
                         "    }\n" +
                         "}");
                 byte[] bytes = c.toBytecode();
-                // 为什么这里要 detach
                 c.detach();
                 return bytes;
             } catch (Exception e){
